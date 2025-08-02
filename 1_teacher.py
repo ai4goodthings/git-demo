@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 import datetime as dt
 import json
+
 data = []
 url = "https://api.cnyes.com/media/api/v1/newslist/category/headline" #新聞連結
 payload = {
